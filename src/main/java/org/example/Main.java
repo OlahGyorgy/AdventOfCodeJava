@@ -7,7 +7,9 @@ public class Main {
 
         String IFName = "BaseInput.txt";
 
-        System.out.println(DataPreProcessor.ReadFile(IFName));
+        System.out.println(DataPreProcessor.ReadFileAllLine(IFName).toString());
+
+
 
     }
 }
