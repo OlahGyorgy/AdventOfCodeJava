@@ -5,6 +5,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        String IFName = "BaseInput.txt";
+
+        System.out.println(DataPreProcessor.ReadFile(IFName));
 
     }
 }
